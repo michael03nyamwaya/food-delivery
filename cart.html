@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="style.css">
+
+<div class="navbar">
+		<h2>Nyamwaya foods</h2>
+		
+		<ul>
+			<li>contact</li>
+			<li>about</li>
+			<li>check progress</li>
+		</ul>
+	</div>
+<iframe src="" name="x" onload="loaded()"></iframe>
+
+<p id ="itemName"></p>
+<p id ="itemPrice"></p>
+<p id="itemHotel"></p>
+<img src="" id="image" >
+
+
+<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdw12leR7Qw2fmI6RuyJyu6mDqQg2Xer8d_aJvflxITsbV6ig/formResponse" method="post" target="x" onsubmit="submitted()">
+<input type="hidden" name="entry.260060632" id="name">
+<input type="hidden" name="entry.1663740103" id="price">
+<input type="hidden" name="entry.1880764770" id="hotel"> 
+<input type="text" name="entry.1838507839" id="user" placeholder="User Name">
+<input type="tel" name="entry.1513049695" id="phone" placeholder="phone number">
+<input type="text" id="location" name="entry.143516287" placeholder="location">
+<input type="submit" value="submit">
+
+</form>
+
+<script src="https://gstatic.com/firebasejs/8.1.0/firebase-app.js"></script>
+<script src="https://gstatic.com/firebasejs/8.1.0/firebase-database.js"></script>
+<script src="config.js"></script>
+
+<script src="cart.js"></script>
