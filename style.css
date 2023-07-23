@@ -1,0 +1,141 @@
+#card{
+
+	width: 20vw;
+	box-shadow: 0px 2px 5px gray;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	
+	
+}
+
+#container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	gap: 10px;
+	flex-direction: row;
+	transform: scale(80%);
+	align-items: center;
+	
+	
+}
+
+#image{
+	height: 100px;
+	width: 100px;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px  2px 5px gray;
+	padding: 20px;
+	width: 30vw;
+}
+
+input[type="text"],[type="tel"],[type="search"]{
+	margin-top: 10px;
+	height: 35px;
+	box-shadow: 0px 2px 5px inset;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 20px;
+}
+
+input:focus{
+	outline: none;
+}
+
+input[type="submit"]{
+	margin-top: 10px;
+	height: 50px;
+	box-shadow: 0px 2px 5px;
+	border: none;
+	background-color: royalblue;
+	font-size: 20;
+	color: white;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	
+}
+.navbar{
+	height: 50px;
+	background-color: dodgerblue;
+	width: 100vw;
+	box-shadow: 0px 2px 5px gray;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+}
+
+input[type="search"]{
+	margin-top: 20px;
+	width: 40%;
+	margin-top: 50;
+}
+
+h2{
+	margin-left: 30px;
+	color: aliceblue;
+	font-family: sans-serif;
+}
+
+ul{
+	position: absolute;
+	right: 30;
+}
+li{
+	display: inline;
+	color: white;
+	font-family: sans-serif;
+	font-weight: ;
+	margin: 10px;
+}
+
+
+button{
+	margin-top: 10px;
+	height: 50px;
+	box-shadow: 0px 2px 5px;
+	border: none;
+	background-color: royalblue;
+	font-size: 20;
+	color: white;
+	width: 100%;
+}
+
+#title{
+	font-family: sans-serif;
+	font-size: 20px;
+	
+}
+#price{
+	font-family: sans-serif;
+	font-size: 20px;
+	color: darkseagreen;
+	font-weight: bold;
+	
+}
+#hotel{
+	font-family: sans-serif;
+	font-size: 20px;
+	color: orange;
+}
+
+iframe{
+	display: none;
+}
+
+
+
